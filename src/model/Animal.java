@@ -6,7 +6,6 @@ public abstract class Animal {
     private String name;
 
     public Animal(){
-
     }
 
     public Animal(Integer nrOfLegs, String name) {
@@ -32,6 +31,6 @@ public abstract class Animal {
 
     @Override
     public String toString() {
-        return "Animal: " + name + ", Number of Legs: " + nrOfLegs;
+        return "Animal: " + getClass().getSimpleName() +" Nume " + name + ", Number of Legs " + nrOfLegs;
     }
 }

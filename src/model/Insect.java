@@ -29,4 +29,8 @@ public class Insect extends Animal{
     public void setDangerous(boolean dangerous) {
         isDangerous = dangerous;
     }
+
+    public String toString() {
+        return super.toString() + ", Can fly?: " + canFly+ ", Is dangerous?: " + isDangerous;
+    }
 }

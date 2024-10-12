@@ -7,17 +7,17 @@ public class Mammal extends Animal{
     public Mammal() {
     }
 
-    public Mammal(Integer nrOfLegs, String name, float nromalBodyTemp, float percBodyHair) {
+    public Mammal(Integer nrOfLegs, String name, float normalBodyTemp, float percBodyHair) {
         super(nrOfLegs, name);
-        this.normalBodyTemp = nromalBodyTemp;
+        this.normalBodyTemp = normalBodyTemp;
         this.percBodyHair = percBodyHair;
     }
 
-    public float getNromalBodyTemp() {
+    public float getNormalBodyTemp() {
         return normalBodyTemp;
     }
 
-    public void setNromalBodyTemp(float nromalBodyTemp) {
+    public void setNormalBodyTemp(float nromalBodyTemp) {
         this.normalBodyTemp = nromalBodyTemp;
     }
 

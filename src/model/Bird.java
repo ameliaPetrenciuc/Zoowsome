@@ -5,8 +5,8 @@ public class Bird extends Animal{
     private Integer avgFlightAltitude;
 
     public Bird(){
-
     }
+
     public Bird(Integer nrOfLegs, String name, boolean migrates, Integer avgFlightAltitude) {
         super(nrOfLegs, name);
         this.migrates = migrates;
@@ -27,5 +27,9 @@ public class Bird extends Animal{
 
     public void setAvgFlightAltitude(Integer avgFlightAltitude) {
         this.avgFlightAltitude = avgFlightAltitude;
+    }
+
+    public String toString() {
+        return super.toString() + ", is migrate?: " + migrates + ", average flight altitude: " + avgFlightAltitude;
     }
 }

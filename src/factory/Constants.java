@@ -25,7 +25,7 @@ public final class Constants {
         }
 
         public static final class Birds{
-            public static final String JOY="JOY";
+            public static final String JAY="JAY";
             public static final String CHICKEN="CHICKEN";
             public static final String PIGEON="PIGEON";
         }

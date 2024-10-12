@@ -30,4 +30,9 @@ public class Aquatic extends Animal{
     public void setWaterType(WaterType waterType) {
         this.waterType = waterType;
     }
+
+
+    public String toString() {
+        return super.toString() + ", Average Swim Depth: " + avgSwimDepth + ", Water Type: " + waterType;
+    }
 }

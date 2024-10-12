@@ -3,5 +3,5 @@ package factory;
 import model.Animal;
 
 public abstract class SpeciesFactory {
-    public abstract Animal getAnimal(String type);
+    public abstract Animal getAnimal(String type) throws Exception;
 }
